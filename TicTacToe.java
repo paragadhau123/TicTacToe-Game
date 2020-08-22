@@ -32,7 +32,6 @@ import java.util.*;
 		}
 	}
         static void toss(int userChoice){
-               int ttt=0;
                Random r = new Random();
                int randomChoice = r.nextInt(2)+1;
                if( randomChoice == userChoice ){
