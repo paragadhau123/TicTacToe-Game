@@ -28,6 +28,7 @@ import java.util.*;
 
 	static void populateEmptyBoard() {
 		for (int a = 0; a < 9; a++) {
+//                        System.out.println();
 			board[a] = String.valueOf(a+1);
 		}
 	}
